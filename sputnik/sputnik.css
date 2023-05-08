@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2c2c2e; 
+}
+/*Header*/
+header{
+    color: crimson;
+    text-align: center;
+    margin: 50px;
+}
