@@ -1,0 +1,98 @@
+<nav>
+    <input type="checkbox" id="check"/>
+    <label for="check" class="checkbtn">
+        <img src="./img/menu-regular-24.png">
+    </label>
+    <a class="enlace" href="#">
+        <img src="./img/logo.png" alt="" class="logo">
+    </a>
+    <ul>
+        <li><a class="active" href="#">SPUTNIT</a></li>
+        <li><a href="#">ARTEMIS</a></li>
+        <li><a href="#">APOLO</a></li>
+    </ul>
+    <button class="btn-nav"> NUEVO RECLUTA </button>
+</nav>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: black;
+    }
+    .logo{
+        height: 50px;
+    }
+    nav a{
+        color:white;
+        text-decoration: none;
+        margin-left: 30px;
+        font-family: 'Courgette', cursive;
+        font-weight: bold;
+        padding: 7px 13px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 50px;
+        margin: 0;
+    }
+    button{
+        color: goldenrod;
+        background-color: firebrick;
+        width: 10rem;
+        padding: 7px 13px;
+        font-family: 'Courgette', cursive;
+        font-weight: bold;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+    .checkbtn{
+        font-size: 30px;
+        float: right;
+        line-height: 50px;
+        margin-right: 5rem;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    @media (max-width: 670px){
+        .checkbtn{
+            display: block;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: black;
+            top: 70px;
+            left: -150%;
+            z-index: 10;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+        nav ul li a{
+            font-size: 20px;
+        }
+        li a:hover, li a.active{
+            background: none;
+            color:crimson;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+    }
+</style>
