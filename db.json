@@ -1,0 +1,90 @@
+{
+  "reclutas": [
+    {
+      "id": 1,
+      "nombre": "Omaira",
+      "edad": 24,
+      "telefono": 3002523212,
+      "email": "omaira@gmail.com",
+      "direccion": "calle 35 #15-40",
+      "f_nacimiento": "5 junio 1998",
+      "n_identificacion": 1098820098,
+      "f_ingreso": "23 enero 2023",
+      "id_team": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Andres",
+      "edad": 20,
+      "telefono": 3154266520,
+      "email": "andres@gmail.com",
+      "direccion": "carrera 50 #05-45",
+      "f_nacimiento": "18 mayo 2003",
+      "n_identificacion": 1004512451,
+      "f_ingreso": "23 enero 2023",
+      "id_team": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Juan",
+      "edad": 17,
+      "telefono": 3134546524,
+      "email": "juan@gmail.com",
+      "direccion": "calle 52 #45-55",
+      "f_nacimiento": "13 enero 2006",
+      "n_identificacion": 1058532481,
+      "f_ingreso": "23 enero 2023",
+      "id_team": 2
+    }
+  ],
+  "team": [
+    {
+      "id_team": 1,
+      "nombre": "Spuknit",
+      "trainer_asociado": "miguel",
+      "id": 1
+    },
+    {
+      "id_team": 2,
+      "nombre": "Apolo",
+      "trainer_asociado": "jolver",
+      "id": 2
+    },
+    {
+      "id_team": 3,
+      "nombre": "Artemis",
+      "trainer_asociado": "vermet",
+      "id": 3
+    }
+  ],
+  "skill": [
+    {
+      "id": 1,
+      "nombre": "html"
+    },
+    {
+      "id": 2,
+      "nombre": "css"
+    },
+    {
+      "id": 3,
+      "nombre": "javascript"
+    }
+  ],
+  "moduloskill": [
+    {
+        "id":1,
+        "id_moduloskill": 1,
+        "nombre": "modulo 1",
+        "id_skill": 1
+    }
+  ],
+  "evaluacion": [
+    {
+        "id":1,
+        "id_recluta": 1,
+        "id_modulo": 1,
+        "nota": 5
+    }
+  ]
+}
