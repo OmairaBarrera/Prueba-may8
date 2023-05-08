@@ -35,6 +35,18 @@
       "n_identificacion": 1058532481,
       "f_ingreso": "23 enero 2023",
       "id_team": 2
+    },
+    {
+      "nombre": "oamira",
+      "edad": "25",
+      "telefono": "3522",
+      "email": "jdue@nhzhs.com",
+      "direccion": "kcksjcsjc jdjjf",
+      "f_nacimiento": "2016-02-24",
+      "n_identificacion": "1225522552",
+      "f_ingreso": "2023-05-08",
+      "id_team": 1,
+      "id": 4
     }
   ],
   "team": [
@@ -73,18 +85,18 @@
   ],
   "moduloskill": [
     {
-        "id":1,
-        "id_moduloskill": 1,
-        "nombre": "modulo 1",
-        "id_skill": 1
+      "id": 1,
+      "id_moduloskill": 1,
+      "nombre": "modulo 1",
+      "id_skill": 1
     }
   ],
   "evaluacion": [
     {
-        "id":1,
-        "id_recluta": 1,
-        "id_modulo": 1,
-        "nota": 5
+      "id": 1,
+      "id_recluta": 1,
+      "id_modulo": 1,
+      "nota": 5
     }
   ]
 }

@@ -8,34 +8,34 @@
     <!--css-->
     <link rel="stylesheet" href="./recluta.css">
     <!--js-->
-    <script src="../app.js" type="module" defer></script>
+    <script src="../components/myFormulario.js" type="module" defer></script>
 </head>
 <body>
     <my-nav></my-nav>
     <main>
         <div class="formulario">
-            <form action="">
+            <form class="from-recluta">
                 <h2>FORMULARIO RECLUTAS</h2>
                 <label for="">Nombre: </label>
-                <input class="control" type="text" placeholder="Ingrese Nombre Completo">
+                <input class="control" type="text" name="nombre" placeholder="Ingrese Nombre Completo">
                 <label for="">Edad: </label>
-                <input class="control"type="text" placeholder="Ingrese Edad">
+                <input class="control"type="text" name="edad" placeholder="Ingrese Edad">
                 <label for="">Telefono: </label>
-                <input class="control"type="text" placeholder="Ingrese Telefono">
+                <input class="control"type="text" name="telefono" placeholder="Ingrese Telefono">
                 <label for="">Email: </label>
-                <input class="control"type="text" placeholder="Ingrese Email">
+                <input class="control"type="text" name="email" placeholder="Ingrese Email">
                 <label for="">Dirección: </label>
-                <input class="control"type="text" placeholder="Ingrese Direccion">
+                <input class="control"type="text" name="direccion" placeholder="Ingrese Direccion">
                 <label for="">Fecha de Nacimiento: </label>
-                <input class="fecha" type="date"><br>
+                <input class="fecha" type="date" name="nacimiento"><br>
                 <label for=""># Identificación: </label>
-                <input class="control"type="text" placeholder="Ingrese Identificacion">
+                <input class="control"type="text" name="identificacion" placeholder="Ingrese Identificacion">
                 <label for="">Fecha ingreso: </label>
-                <input class="fecha" type="date"><br>
+                <input class="fecha" type="date" name="ingreso"><br>
                 <label for="">team: </label><br>
-                <input type="radio">1
-                <input type="radio">2
-                <input type="radio">3<br>
+                <input type="radio" name="team1">1
+                <input type="radio" name="team2">2
+                <input type="radio" name="team3">3<br>
                 <div class="ctn-btn">
                     <input class="btn-formulario" type="submit">
                 </div>
