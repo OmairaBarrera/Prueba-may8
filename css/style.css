@@ -6,54 +6,35 @@
 body{
     background-color: #2c2c2e;
 }
+/*Header*/
+header{
+    color: crimson;
+    text-align: center;
+    margin: 50px;
+}
 /*Main*/
 main{
-    display: flex; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.img-main{
-    width: 50%;
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
 }
-main img{
-    width: 90%;
+thead{
+    color: goldenrod;
+    background-color: firebrick;
 }
-form{
-    padding: 50px;
-    background-color: rgb(0, 0, 0, 0.5);
+th{
+    padding: 20px 30px;
+    text-transform: uppercase;
 }
-form h2{
-    padding-bottom: 10px;
+tbody{
+    color: white;
+}
+td{
     text-align: center;
-}
-input{
-    margin-bottom: 16px;
-}
-.formulario{
-    padding: 50px;
-    color: rgb(255, 0, 51);
-    width: 50%;
-    font-family: 'Courgette', cursive;
-    font-weight: bold;
-}
-.control{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid crimson;
-}
-.fecha{
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid crimson;
-}
-.ctn-btn{
-    text-align: center;
-}
-.btn-formulario{
-    width: 10rem;
-    height: 3rem;
-    font-size: 15px;
-    border: none;
-    border-radius: 5rem;
-    color:white;
-    background-color: crimson;
+    padding: 15px;
+    border-bottom: solid 1px firebrick;
 }

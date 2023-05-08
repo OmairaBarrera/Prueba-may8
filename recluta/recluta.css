@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2c2c2e;
+}
+/*Main*/
+main{
+    display: flex; 
+}
+.img-main{
+    width: 50%;
+}
+main img{
+    width: 90%;
+}
+form{
+    padding: 50px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+form h2{
+    padding-bottom: 10px;
+    text-align: center;
+}
+input{
+    margin-bottom: 16px;
+}
+.formulario{
+    padding: 50px;
+    color: rgb(255, 0, 51);
+    width: 50%;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+.control{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid crimson;
+}
+.fecha{
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid crimson;
+}
+.ctn-btn{
+    text-align: center;
+}
+.btn-formulario{
+    width: 10rem;
+    height: 3rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 5rem;
+    color:white;
+    background-color: crimson;
+}

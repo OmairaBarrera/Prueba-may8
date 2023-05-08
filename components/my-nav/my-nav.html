@@ -1,17 +1,17 @@
 <nav>
     <input type="checkbox" id="check"/>
     <label for="check" class="checkbtn">
-        <img src="./img/menu-regular-24.png">
+        <img src="../img/menu-regular-24.png">
     </label>
     <a class="enlace" href="#">
-        <img src="./img/logo.png" alt="" class="logo">
+        <img src="../img/logo.png" alt="" class="logo">
     </a>
     <ul>
         <li><a class="active" href="#">SPUTNIT</a></li>
         <li><a href="#">ARTEMIS</a></li>
         <li><a href="#">APOLO</a></li>
     </ul>
-    <button class="btn-nav"> NUEVO RECLUTA </button>
+    <a class="btn-nav" type="button" href="./recluta/recluta.html">NUEVO RECLUTA </a>
 </nav>
 
 <style>
@@ -42,13 +42,15 @@
         line-height: 50px;
         margin: 0;
     }
-    button{
+    .btn-nav{
         color: goldenrod;
         background-color: firebrick;
-        width: 10rem;
+        width: 12rem;
         padding: 7px 13px;
         font-family: 'Courgette', cursive;
         font-weight: bold;
+        font-size: 15px;
+        text-align: center;
         border: none;
         border-radius: 1rem;
         cursor: pointer;
